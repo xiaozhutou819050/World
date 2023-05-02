@@ -1,0 +1,16 @@
+-- --- lua_plus ---
+-- --- lua_plus ---
+-- --- skip_undefined ---
+-- Crt = base.trigger_new(coroutine.will_async(function(当前触发器:trigger, e:trigger_args)
+--     if  then
+--         local Dh:unknown = 100 * base.unit_get_attribute_ex(e.unit, "连击", 0)
+--         local m:unknown = math.random(1, 100)
+--         --log.info(CrtP .. "、" .. m .. "、" .. old_hurt .. "、" .. hurt_power)
+--         if Dh > 0 then
+--             log.info"触发连击！"
+--             base.unit_set_ex(e.unit, "连击状态", 1, 1)
+--         end
+--     end
+-- end), {
+--     base.trigger_event_wrapper_unit(base.any_unit, "造成伤害")
+-- }, true, nil)
